@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1AD98A1CE0ECAA00CF9C66 /* NotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AD9891CE0ECAA00CF9C66 /* NotViewController.swift */; };
+		4F1AD98C1CE0EEC900CF9C66 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AD98B1CE0EEC900CF9C66 /* Section.swift */; };
+		4F1AD9901CE3929300CF9C66 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AD98F1CE3929300CF9C66 /* DatePickerController.swift */; };
+		4F1AD9921CE3933B00CF9C66 /* toDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AD9911CE3933B00CF9C66 /* toDoItem.swift */; };
+		4F1AD9941CE4E3E500CF9C66 /* toDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AD9931CE4E3E500CF9C66 /* toDoList.swift */; };
+		4FA4E7351CB41B73008EC5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4E7341CB41B73008EC5D7 /* AppDelegate.swift */; };
+		4FA4E7371CB41B73008EC5D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4E7361CB41B73008EC5D7 /* ViewController.swift */; };
+		4FA4E73A1CB41B73008EC5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4E7381CB41B73008EC5D7 /* Main.storyboard */; };
+		4FA4E73C1CB41B73008EC5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4E73B1CB41B73008EC5D7 /* Assets.xcassets */; };
+		4FA4E73F1CB41B73008EC5D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4E73D1CB41B73008EC5D7 /* LaunchScreen.storyboard */; };
+		4FA4E74A1CB41B73008EC5D7 /* HomeAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4E7491CB41B73008EC5D7 /* HomeAlertTests.swift */; };
+		4FA4E7551CB41B73008EC5D7 /* HomeAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4E7541CB41B73008EC5D7 /* HomeAlertUITests.swift */; };
+		4FA4E7631CBC089C008EC5D7 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA4E7621CBC089C008EC5D7 /* DatabaseViewController.swift */; };
+		4FA4E76C1CCA855E008EC5D7 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA4E76A1CCA855E008EC5D7 /* Realm.framework */; };
+		4FA4E76D1CCA855E008EC5D7 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA4E76A1CCA855E008EC5D7 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4FA4E76E1CCA855E008EC5D7 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA4E76B1CCA855E008EC5D7 /* RealmSwift.framework */; };
+		4FA4E76F1CCA855E008EC5D7 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA4E76B1CCA855E008EC5D7 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FA4E7461CB41B73008EC5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA4E7291CB41B72008EC5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA4E7301CB41B73008EC5D7;
+			remoteInfo = HomeAlert;
+		};
+		4FA4E7511CB41B73008EC5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA4E7291CB41B72008EC5D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA4E7301CB41B73008EC5D7;
+			remoteInfo = HomeAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FA4E7701CCA855E008EC5D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4FA4E76F1CCA855E008EC5D7 /* RealmSwift.framework in Embed Frameworks */,
+				4FA4E76D1CCA855E008EC5D7 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F1AD9891CE0ECAA00CF9C66 /* NotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotViewController.swift; sourceTree = "<group>"; };
+		4F1AD98B1CE0EEC900CF9C66 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Section.swift; path = ../Section.swift; sourceTree = "<group>"; };
+		4F1AD98F1CE3929300CF9C66 /* DatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePickerController.swift; path = ../DatePickerController.swift; sourceTree = "<group>"; };
+		4F1AD9911CE3933B00CF9C66 /* toDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toDoItem.swift; sourceTree = "<group>"; };
+		4F1AD9931CE4E3E500CF9C66 /* toDoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = toDoList.swift; path = ../toDoList.swift; sourceTree = "<group>"; };
+		4FA4E7311CB41B73008EC5D7 /* HomeAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA4E7341CB41B73008EC5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FA4E7361CB41B73008EC5D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FA4E7391CB41B73008EC5D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FA4E73B1CB41B73008EC5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA4E73E1CB41B73008EC5D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FA4E7401CB41B73008EC5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA4E7451CB41B73008EC5D7 /* HomeAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA4E7491CB41B73008EC5D7 /* HomeAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAlertTests.swift; sourceTree = "<group>"; };
+		4FA4E74B1CB41B73008EC5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA4E7501CB41B73008EC5D7 /* HomeAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA4E7541CB41B73008EC5D7 /* HomeAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAlertUITests.swift; sourceTree = "<group>"; };
+		4FA4E7561CB41B73008EC5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA4E7621CBC089C008EC5D7 /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
+		4FA4E76A1CCA855E008EC5D7 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		4FA4E76B1CCA855E008EC5D7 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA4E72E1CB41B73008EC5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA4E76E1CCA855E008EC5D7 /* RealmSwift.framework in Frameworks */,
+				4FA4E76C1CCA855E008EC5D7 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA4E7421CB41B73008EC5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA4E74D1CB41B73008EC5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA4E7281CB41B72008EC5D7 = {
+			isa = PBXGroup;
+			children = (
+				4FA4E76A1CCA855E008EC5D7 /* Realm.framework */,
+				4FA4E76B1CCA855E008EC5D7 /* RealmSwift.framework */,
+				4FA4E7331CB41B73008EC5D7 /* HomeAlert */,
+				4FA4E7481CB41B73008EC5D7 /* HomeAlertTests */,
+				4FA4E7531CB41B73008EC5D7 /* HomeAlertUITests */,
+				4FA4E7321CB41B73008EC5D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA4E7321CB41B73008EC5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4E7311CB41B73008EC5D7 /* HomeAlert.app */,
+				4FA4E7451CB41B73008EC5D7 /* HomeAlertTests.xctest */,
+				4FA4E7501CB41B73008EC5D7 /* HomeAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA4E7331CB41B73008EC5D7 /* HomeAlert */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4E7341CB41B73008EC5D7 /* AppDelegate.swift */,
+				4F1AD98B1CE0EEC900CF9C66 /* Section.swift */,
+				4F1AD9931CE4E3E500CF9C66 /* toDoList.swift */,
+				4F1AD9911CE3933B00CF9C66 /* toDoItem.swift */,
+				4FA4E7361CB41B73008EC5D7 /* ViewController.swift */,
+				4FA4E7381CB41B73008EC5D7 /* Main.storyboard */,
+				4FA4E7621CBC089C008EC5D7 /* DatabaseViewController.swift */,
+				4F1AD9891CE0ECAA00CF9C66 /* NotViewController.swift */,
+				4F1AD98F1CE3929300CF9C66 /* DatePickerController.swift */,
+				4FA4E73B1CB41B73008EC5D7 /* Assets.xcassets */,
+				4FA4E73D1CB41B73008EC5D7 /* LaunchScreen.storyboard */,
+				4FA4E7401CB41B73008EC5D7 /* Info.plist */,
+			);
+			path = HomeAlert;
+			sourceTree = "<group>";
+		};
+		4FA4E7481CB41B73008EC5D7 /* HomeAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4E7491CB41B73008EC5D7 /* HomeAlertTests.swift */,
+				4FA4E74B1CB41B73008EC5D7 /* Info.plist */,
+			);
+			path = HomeAlertTests;
+			sourceTree = "<group>";
+		};
+		4FA4E7531CB41B73008EC5D7 /* HomeAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4E7541CB41B73008EC5D7 /* HomeAlertUITests.swift */,
+				4FA4E7561CB41B73008EC5D7 /* Info.plist */,
+			);
+			path = HomeAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA4E7301CB41B73008EC5D7 /* HomeAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA4E7591CB41B73008EC5D7 /* Build configuration list for PBXNativeTarget "HomeAlert" */;
+			buildPhases = (
+				4FA4E72D1CB41B73008EC5D7 /* Sources */,
+				4FA4E72E1CB41B73008EC5D7 /* Frameworks */,
+				4FA4E72F1CB41B73008EC5D7 /* Resources */,
+				4FA4E7701CCA855E008EC5D7 /* Embed Frameworks */,
+				4FA4E7711CCA8712008EC5D7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeAlert;
+			productName = HomeAlert;
+			productReference = 4FA4E7311CB41B73008EC5D7 /* HomeAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FA4E7441CB41B73008EC5D7 /* HomeAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA4E75C1CB41B73008EC5D7 /* Build configuration list for PBXNativeTarget "HomeAlertTests" */;
+			buildPhases = (
+				4FA4E7411CB41B73008EC5D7 /* Sources */,
+				4FA4E7421CB41B73008EC5D7 /* Frameworks */,
+				4FA4E7431CB41B73008EC5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA4E7471CB41B73008EC5D7 /* PBXTargetDependency */,
+			);
+			name = HomeAlertTests;
+			productName = HomeAlertTests;
+			productReference = 4FA4E7451CB41B73008EC5D7 /* HomeAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FA4E74F1CB41B73008EC5D7 /* HomeAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA4E75F1CB41B73008EC5D7 /* Build configuration list for PBXNativeTarget "HomeAlertUITests" */;
+			buildPhases = (
+				4FA4E74C1CB41B73008EC5D7 /* Sources */,
+				4FA4E74D1CB41B73008EC5D7 /* Frameworks */,
+				4FA4E74E1CB41B73008EC5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA4E7521CB41B73008EC5D7 /* PBXTargetDependency */,
+			);
+			name = HomeAlertUITests;
+			productName = HomeAlertUITests;
+			productReference = 4FA4E7501CB41B73008EC5D7 /* HomeAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA4E7291CB41B72008EC5D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Noah Guy";
+				TargetAttributes = {
+					4FA4E7301CB41B73008EC5D7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4FA4E7441CB41B73008EC5D7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4FA4E7301CB41B73008EC5D7;
+					};
+					4FA4E74F1CB41B73008EC5D7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4FA4E7301CB41B73008EC5D7;
+					};
+				};
+			};
+			buildConfigurationList = 4FA4E72C1CB41B72008EC5D7 /* Build configuration list for PBXProject "HomeAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FA4E7281CB41B72008EC5D7;
+			productRefGroup = 4FA4E7321CB41B73008EC5D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA4E7301CB41B73008EC5D7 /* HomeAlert */,
+				4FA4E7441CB41B73008EC5D7 /* HomeAlertTests */,
+				4FA4E74F1CB41B73008EC5D7 /* HomeAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA4E72F1CB41B73008EC5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA4E73F1CB41B73008EC5D7 /* LaunchScreen.storyboard in Resources */,
+				4FA4E73C1CB41B73008EC5D7 /* Assets.xcassets in Resources */,
+				4FA4E73A1CB41B73008EC5D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA4E7431CB41B73008EC5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA4E74E1CB41B73008EC5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FA4E7711CCA8712008EC5D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA4E72D1CB41B73008EC5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1AD98C1CE0EEC900CF9C66 /* Section.swift in Sources */,
+				4F1AD98A1CE0ECAA00CF9C66 /* NotViewController.swift in Sources */,
+				4FA4E7631CBC089C008EC5D7 /* DatabaseViewController.swift in Sources */,
+				4F1AD9941CE4E3E500CF9C66 /* toDoList.swift in Sources */,
+				4F1AD9921CE3933B00CF9C66 /* toDoItem.swift in Sources */,
+				4F1AD9901CE3929300CF9C66 /* DatePickerController.swift in Sources */,
+				4FA4E7371CB41B73008EC5D7 /* ViewController.swift in Sources */,
+				4FA4E7351CB41B73008EC5D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA4E7411CB41B73008EC5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA4E74A1CB41B73008EC5D7 /* HomeAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA4E74C1CB41B73008EC5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA4E7551CB41B73008EC5D7 /* HomeAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FA4E7471CB41B73008EC5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA4E7301CB41B73008EC5D7 /* HomeAlert */;
+			targetProxy = 4FA4E7461CB41B73008EC5D7 /* PBXContainerItemProxy */;
+		};
+		4FA4E7521CB41B73008EC5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA4E7301CB41B73008EC5D7 /* HomeAlert */;
+			targetProxy = 4FA4E7511CB41B73008EC5D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FA4E7381CB41B73008EC5D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA4E7391CB41B73008EC5D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FA4E73D1CB41B73008EC5D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA4E73E1CB41B73008EC5D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FA4E7571CB41B73008EC5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FA4E7581CB41B73008EC5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA4E75A1CB41B73008EC5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/../../../../Downloads/realm-swift-0.98.8/ios/swift-2.2/RealmSwift.framework\"",
+				);
+				INFOPLIST_FILE = HomeAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				New_Setting1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "For-The-Cause.HomeAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FA4E75B1CB41B73008EC5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/../../../../Downloads/realm-swift-0.98.8/ios/swift-2.2/RealmSwift.framework\"",
+				);
+				INFOPLIST_FILE = HomeAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				New_Setting1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "For-The-Cause.HomeAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FA4E75D1CB41B73008EC5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HomeAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "For-The-Cause.HomeAlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeAlert.app/HomeAlert";
+			};
+			name = Debug;
+		};
+		4FA4E75E1CB41B73008EC5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HomeAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "For-The-Cause.HomeAlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeAlert.app/HomeAlert";
+			};
+			name = Release;
+		};
+		4FA4E7601CB41B73008EC5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HomeAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "For-The-Cause.HomeAlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HomeAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4FA4E7611CB41B73008EC5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HomeAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "For-The-Cause.HomeAlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HomeAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA4E72C1CB41B72008EC5D7 /* Build configuration list for PBXProject "HomeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA4E7571CB41B73008EC5D7 /* Debug */,
+				4FA4E7581CB41B73008EC5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA4E7591CB41B73008EC5D7 /* Build configuration list for PBXNativeTarget "HomeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA4E75A1CB41B73008EC5D7 /* Debug */,
+				4FA4E75B1CB41B73008EC5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA4E75C1CB41B73008EC5D7 /* Build configuration list for PBXNativeTarget "HomeAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA4E75D1CB41B73008EC5D7 /* Debug */,
+				4FA4E75E1CB41B73008EC5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA4E75F1CB41B73008EC5D7 /* Build configuration list for PBXNativeTarget "HomeAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA4E7601CB41B73008EC5D7 /* Debug */,
+				4FA4E7611CB41B73008EC5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA4E7291CB41B72008EC5D7 /* Project object */;
+}
